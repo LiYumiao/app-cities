@@ -5,7 +5,7 @@ plt.style.use('seaborn')
 
 st.title('World Cities')
 
-df = pd.read_csv(r'C:\Users\LiYumiao\Desktop\misy225\my-streamlit\worldcities.csv')
+df = pd.read_csv('worldcities.csv')
 
 #population_filter
 pop_slider = st.slider('Choose population', 0.0, 40.0, 3.6)
